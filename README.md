@@ -36,8 +36,11 @@ a tutaj rozwiązanie metodą Rungego-Kutty-Fehlberga z początkowym krokiem cał
 
 
 Wybrane Źródła:
+
 Kiusalaas J., Numerical methods in engineering with Python, Cambridge university press, 2010
+
 Press W.H., Teukolsky S.A., Vetterling W.T., Flannery B.P., Numerical Recipes in Fortran 77: The Art of Scientific Computing, vol 1, 1992.
+
 
 
 
