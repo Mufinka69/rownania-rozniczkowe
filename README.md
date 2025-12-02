@@ -24,6 +24,7 @@ $\frac{dz}{dt} = xy−\beta z​$,
 gdzie $\sigma = 10$, $\rho = 28$, $\beta = 8/3$.
 
 Warunki początkowe: $x(0) = 1, y(0) = 1, z(0) = 1$
+
 Rozwiązanie metodą rk4 z krokiem całkowania $h = 0.1$ na przedziale $t \in [0, 100]$ jest przedstawione na poniższym rysunku.
 
 <img width="1078" height="824" alt="obraz" src="https://github.com/user-attachments/assets/44a2ff4e-be57-437f-9a67-768010c3df4b" />
@@ -40,6 +41,7 @@ Wybrane Źródła:
 Kiusalaas J., Numerical methods in engineering with Python, Cambridge university press, 2010
 
 Press W.H., Teukolsky S.A., Vetterling W.T., Flannery B.P., Numerical Recipes in Fortran 77: The Art of Scientific Computing, vol 1, 1992.
+
 
 
 
