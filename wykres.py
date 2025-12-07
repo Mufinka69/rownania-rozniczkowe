@@ -33,16 +33,17 @@ def open_sol(plik, color = None, s = "s", alpha = 1, name = None, markersize = N
             plt.plot(df['t'], df[col], s , label = fr"{name}", alpha = alpha, markersize = markersize, color = color)
 
 
-open_file("wynik/euler_result_2y.txt", alpha=0.9, color = "red", name = "Metoda Eulera")
-open_file("wynik/mid_point_result_2y.txt", alpha=0.9, color = "green", name = "Zmodyfikowana metoda Eulera", markersize=10)
-open_file("wynik/heun_result_2y.txt", alpha=0.9, color = "blue", name = "Matoda Heuna")
-open_file("wynik/rk4_result_2y.txt", alpha=0.5, color = "magenta", name = "RK4", s = "v", markersize=8)
+# open_file("wynik/euler_result_2y.txt", alpha=0.9, color = "red", name = "Metoda Eulera")
+# open_file("wynik/mid_point_result_2y.txt", alpha=0.9, color = "green", name = "Zmodyfikowana metoda Eulera", markersize=10)
+# open_file("wynik/heun_result_2y.txt", alpha=0.9, color = "blue", name = "Matoda Heuna")
+# open_file("wynik/rk4_result_2y.txt", alpha=0.5, color = "magenta", name = "RK4", s = "v", markersize=8)
 
 # open_file("wynik/fehlberg_result_2y.txt", alpha=1, name = "RKF", color="green")
 # open_file("wynik/cash_karp_result_2y.txt", alpha=1, name = "RKF-CK", color = (0/255, 87/255, 59/255, 1))
 
-open_file("wynik/solution_2y.txt", s = "-", name = "Rozwiązanie analityczne")
-open_sol("wynik/solution_sin.txt", s = "-", name = "Rozwiązanie analityczne")
+# open_file("wynik/solution_2y.txt", s = "-", name = "Rozwiązanie analityczne")
+
+# open_sol("wynik/solution_sin.txt", s = "-", name = "Rozwiązanie analityczne", color="black")
 
 # open_file("wynik/euler_result_sin.txt", alpha=0.8, color = "red", name = "Metoda Eulera")
 # open_file("wynik/mid_point_result_sin.txt", alpha=0.8, color = "green", name = "Zmodyfikowana metoda Eulera")
@@ -50,8 +51,8 @@ open_sol("wynik/solution_sin.txt", s = "-", name = "Rozwiązanie analityczne")
 # open_file("wynik/rk4_result_sin.txt",  alpha=1, name = "RK4", color="magenta", s = "v", markersize = 8)
 
 # open_file("wynik/cash_karp_result_sin.txt", alpha=0.5, name = "stare")
-# open_file("wynik/fehlberg_result_y'''.txt", s = "s" ,alpha=1, name = "RKF")
-# open_file("wynik/cash_karp_result_y'''.txt", s = "s" ,alpha=1, name = "RKF-CK", color = (0/255, 87/255, 59/255, 1))
+# open_file("wynik/fehlberg_result_y'''.txt", s = "o" ,alpha=1, name = "RKF", color="blue")
+# open_file("wynik/cash_karp_result_y'''.txt", s = "x" ,alpha=1, name = "RKF-CK", color = "green", markersize = 15)
 
 
 
@@ -62,6 +63,17 @@ open_sol("wynik/solution_sin.txt", s = "-", name = "Rozwiązanie analityczne")
 
 # open_file("wynik/fehlberg_result_bez.txt", s = "s" ,alpha=1, name = "RKF")
 # open_file("wynik/cash_karp_result_bez.txt", s = "s" ,alpha=1, name = "RKF-CK", color = (0/255, 87/255, 59/255, 1))
+
+
+open_file("wynik/euler_lorenz.txt", alpha=0.8, color = "red", name = "Metoda Eulera")
+# open_file("wynik/mid_point_lorenz.txt", alpha=0.8, color = "green", name = "Zmodyfikowana metoda Eulera")
+# open_file("wynik/heun_lorenz.txt", alpha=0.8, name = "Metoda Heuna", color = "blue")
+open_file("wynik/rk4_lorenz.txt",  alpha=1, name = "RK4", color="magenta", s = "v", markersize = 8)
+
+# open_file("wynik/cash_karp_result_sin.txt", alpha=0.5, name = "stare")
+open_file("wynik/fehlberg_lorenz.txt", s = "o" ,alpha=1, name = "RKF", color="blue")
+open_file("wynik/cash_karp_lorenz.txt", s = "x" ,alpha=1, name = "RKF-CK", color = "green", markersize = 15)
+
 
 
 
